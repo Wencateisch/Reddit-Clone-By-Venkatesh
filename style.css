@@ -28,9 +28,10 @@ header li
     list-style-type: none;
 }
 
-header li:hover{
+li:hover{
+    cursor: pointer;
     text-decoration: underline;
-    background-color: cornflowerblue;
+    background-color: blanchedalmond;
 }
 
 .reddit-pic{
@@ -187,6 +188,7 @@ nav > div > ul > li{
 .user-action-button:hover{
     color:white;
     background-color: #3A5ECA;
+    cursor: pointer;
 }
 .main-class{
     display: flex;
